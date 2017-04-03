@@ -125,7 +125,7 @@ The images are then normalized to 0 mean and maximum deviation of 0.5 to both po
 The final model architecture (model.py lines 132-158) consisted of a LeNet netowork with the following layers and layer sizes:-
 
 | Layer         		|     Description	        					|Parameters|
-|:---------------------:|:---------------------------------------------:|
+|:---------------------:|:---------------------:|:------------------------:|
 | Input         		| 32x32x1 grayscale image   	|0|
 | Convolution 5x5     	| 1x1 stride, valid padding, outputs 28x28x6 	|156|
 | ELU					|												|0|
